@@ -1,0 +1,70 @@
+body {
+	background-color: white;
+	font: 16px Helvetica, Arial, serif;	
+	margin: 20px 0 20px 0;
+}
+
+header{
+	width: 500px;
+	margin: 0 auto 0 auto;	
+}
+
+header h1{	
+	background-color: #D0A9F5;
+	color: white;
+	font-size: 3.125em;
+	text-align: center;	
+	padding: 10px;
+}
+
+section {
+	width: 400px;
+	margin: 0 auto 0 auto;
+	font-size: 1.5625em;
+}
+
+input[type="text"], section ul{
+	font-size: inherit;
+	width: 380px;
+	padding: 10px;
+}
+
+input[type="checkbox"]{
+	position: absolute;	
+	width: 30px;
+	margin: auto 0;
+	height: 25px;
+}
+
+input[type="button"]{
+	position: absolute;
+	width: 30px;
+	margin: auto 0;
+}
+
+label{
+	display: inline-block;
+	margin-left: 35px;
+	width: 300px;
+}
+
+#todo-list {
+	list-style: none;
+	padding: 0;
+}
+
+#todo-list li, section #todo-list li:first-child {
+	padding: 15px 0 15px 0;
+	border-bottom: 1px solid;
+	border-color: #808080;
+}
+
+#todo-list li:first-child{
+	border-top: 1px solid;
+	border-color: #808080;
+}
+
+#todo-list li.done label{
+	text-decoration: line-through;
+	color: #808080;
+}
